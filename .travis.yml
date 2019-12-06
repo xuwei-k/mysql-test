@@ -1,0 +1,21 @@
+language: scala
+script:
+- sbt run
+matrix:
+  include:
+  - env: MYSQL_VERSION=5.5.62
+  - env: MYSQL_VERSION=5.6.34
+  - env: MYSQL_VERSION=5.6.35
+  - env: MYSQL_VERSION=5.6.36
+  - env: MYSQL_VERSION=5.6.37
+  - env: MYSQL_VERSION=5.6.38
+  - env: MYSQL_VERSION=5.6.39
+  - env: MYSQL_VERSION=5.6.40
+  - env: MYSQL_VERSION=5.6.41
+  - env: MYSQL_VERSION=5.6.42
+  - env: MYSQL_VERSION=5.6.43
+  - env: MYSQL_VERSION=5.6.44
+  - env: MYSQL_VERSION=5.6.45
+  - env: MYSQL_VERSION=5.6.46
+  - env: MYSQL_VERSION=5.7.28
+  - env: MYSQL_VERSION=8.0.18
